@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 
 
 function Profile(props){
-    props.handleName(props.fullName)
+    {props.handleName(props.fullName)}
     return(
         <div>
             <div>
